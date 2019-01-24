@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="UTF-8">
+      <title>打开对话框</title>
+      <script src="event.js"></script>
+  </head>
+  <body>
+  <button onclick="onClick_OpenFile()">打开文件对话框</button>
+  <p/>
+  <button onclick="onClick_CustomOpenFile()">定制打开对话框</button>
+  <p/>
+
+  <button onclick="onClick_FileType()">选择文件类型</button>
+  <p/>
+
+  <button onclick="onClick_Directory()">选择目录</button>
+  <p/>
+  <button onclick="onClick_MultiSelection()">多选（文件和目录）</button>
+  <p/>
+  <button onclick="onClick_Callback()">通过回调函数返回选择结果</button>
+  <p/>
+  <label id="label"></label>
+  </body>
+</html>
